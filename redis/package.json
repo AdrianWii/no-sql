@@ -1,0 +1,18 @@
+{
+    "name": "express-redis-example",
+    "version": "1.0.0",
+    "description": "Example of using Express.js with Redis",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Adrian Widlak",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "redis": "^3.1.2",
+      "axios": "1.6.7",
+      "cors": "2.8.5"
+    }
+  }
+  

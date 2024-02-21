@@ -1,0 +1,19 @@
+[
+    {
+      "_id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "favorites": [1, 2],
+      "watchlist": [3, 4],
+      "reviews": ["review1"]
+    },
+    {
+      "_id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "favorites": [3],
+      "watchlist": [1, 5],
+      "reviews": []
+    }
+  ]
+  

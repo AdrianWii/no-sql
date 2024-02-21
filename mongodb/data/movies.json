@@ -1,0 +1,1252 @@
+[
+    {
+        "_id": 1,
+        "title": "The Shawshank Redemption",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 9.3,
+        "release_date": "1994-10-14"
+    },
+    {
+        "_id": 2,
+        "title": "The Godfather",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": 9.2,
+        "release_date": "1972-03-24"
+    },
+    {
+        "_id": 3,
+        "title": "The Dark Knight",
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "rating": 9.0,
+        "release_date": "2008-07-18"
+    },
+    {
+        "_id": 4,
+        "title": "Pulp Fiction",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": 8.9,
+        "release_date": "1994-10-14"
+    },
+    {
+        "_id": 5,
+        "title": "Forrest Gump",
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "rating": 8.8,
+        "release_date": "1994-07-06"
+    },
+    {
+        "_id": 6,
+        "title": "Schindler's List",
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rating": 8.9,
+        "release_date": "1993-12-15"
+    },
+    {
+        "_id": 7,
+        "title": "The Lord of the Rings: The Return of the King",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "rating": 8.9,
+        "release_date": "2003-12-17"
+    },
+    {
+        "_id": 8,
+        "title": "The Good, the Bad and the Ugly",
+        "genre": [
+            "Western"
+        ],
+        "rating": 8.8,
+        "release_date": "1966-12-29"
+    },
+    {
+        "_id": 9,
+        "title": "Fight Club",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.8,
+        "release_date": "1999-10-15"
+    },
+    {
+        "_id": 10,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "rating": 8.8,
+        "release_date": "2001-12-19"
+    },
+    {
+        "_id": 11,
+        "title": "Forrest Gump",
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "rating": 8.8,
+        "release_date": "1994-07-06"
+    },
+    {
+        "_id": 12,
+        "title": "Inception",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rating": 8.8,
+        "release_date": "2010-07-16"
+    },
+    {
+        "_id": 13,
+        "title": "The Lord of the Rings: The Two Towers",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "rating": 8.7,
+        "release_date": "2002-12-18"
+    },
+    {
+        "_id": 14,
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "rating": 8.7,
+        "release_date": "1980-05-21"
+    },
+    {
+        "_id": 15,
+        "title": "The Matrix",
+        "genre": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "rating": 8.7,
+        "release_date": "1999-03-31"
+    },
+    {
+        "_id": 16,
+        "title": "Goodfellas",
+        "genre": [
+            "Biography",
+            "Crime",
+            "Drama"
+        ],
+        "rating": 8.7,
+        "release_date": "1990-09-19"
+    },
+    {
+        "_id": 17,
+        "title": "One Flew Over the Cuckoo's Nest",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.7,
+        "release_date": "1975-11-19"
+    },
+    {
+        "_id": 18,
+        "title": "Seven Samurai",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "rating": 8.6,
+        "release_date": "1954-04-26"
+    },
+    {
+        "_id": 19,
+        "title": "City of God",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": 8.6,
+        "release_date": "2003-08-30"
+    },
+    {
+        "_id": 20,
+        "title": "Se7en",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rating": 8.6,
+        "release_date": "1995-09-22"
+    },
+    {
+        "_id": 21,
+        "title": "The Silence of the Lambs",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": 8.6,
+        "release_date": "1991-02-14"
+    },
+    {
+        "_id": 22,
+        "title": "It's a Wonderful Life",
+        "genre": [
+            "Drama",
+            "Family",
+            "Fantasy"
+        ],
+        "rating": 8.6,
+        "release_date": "1947-12-20"
+    },
+    {
+        "_id": 23,
+        "title": "Life Is Beautiful",
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "rating": 8.6,
+        "release_date": "1998-12-20"
+    },
+    {
+        "_id": 24,
+        "title": "The Usual Suspects",
+        "genre": [
+            "Crime",
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": 8.5,
+        "release_date": "1995-09-15"
+    },
+    {
+        "_id": 25,
+        "title": "Léon: The Professional",
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "rating": 8.5,
+        "release_date": "1994-11-18"
+    },
+    {
+        "_id": 26,
+        "title": "Spirited Away",
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Family"
+        ],
+        "rating": 8.5,
+        "release_date": "No release date available"
+    },
+    {
+        "_id": 27,
+        "title": "Saving Private Ryan",
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "rating": 8.5,
+        "release_date": "No release date available"
+    },
+    {
+        "_id": 28,
+        "title": "The Green Mile",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Fantasy"
+        ],
+        "rating": 8.5,
+        "release_date": "No release date available"
+    },
+    {
+        "_id": 29,
+        "title": "Interstellar",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rating": 8.5,
+        "release_date": "No release date available"
+    },
+    {
+        "_id": 30,
+        "title": "The Pianist",
+        "genre": [
+            "Biography",
+            "Drama",
+            "Music"
+        ],
+        "rating": 8.5,
+        "release_date": "No release date available"
+    },
+    {
+        "_id": 31,
+        "title": "Gladiator",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "rating": 8.5,
+        "release_date": "2000-05-05"
+    },
+    {
+        "_id": 32,
+        "title": "American History X",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.5,
+        "release_date": "1998-10-30"
+    },
+    {
+        "_id": 33,
+        "title": "The Departed",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": 8.5,
+        "release_date": "2006-10-06"
+    },
+    {
+        "_id": 34,
+        "title": "The Prestige",
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi"
+        ],
+        "rating": 8.5,
+        "release_date": "2006-10-20"
+    },
+    {
+        "_id": 35,
+        "title": "Back to the Future",
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Sci-Fi"
+        ],
+        "rating": 8.5,
+        "release_date": "1985-07-03"
+    },
+    {
+        "_id": 36,
+        "title": "The Lion King",
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Drama"
+        ],
+        "rating": 8.5,
+        "release_date": "1994-06-24"
+    },
+    {
+        "_id": 37,
+        "title": "The Intouchables",
+        "genre": [
+            "Biography",
+            "Comedy",
+            "Drama"
+        ],
+        "rating": 8.5,
+        "release_date": "2011-11-02"
+    },
+    {
+        "_id": 38,
+        "title": "Whiplash",
+        "genre": [
+            "Drama",
+            "Music"
+        ],
+        "rating": 8.5,
+        "release_date": "2014-10-15"
+    },
+    {
+        "_id": 39,
+        "title": "The Terminator",
+        "genre": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "rating": 8.5,
+        "release_date": "1984-10-26"
+    },
+    {
+        "_id": 40,
+        "title": "The Lives of Others",
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "rating": 8.5,
+        "release_date": "2006-03-23"
+    },
+    {
+        "_id": 41,
+        "title": "The Shining",
+        "genre": [
+            "Drama",
+            "Horror"
+        ],
+        "rating": 8.4,
+        "release_date": "1980-05-23"
+    },
+    {
+        "_id": 42,
+        "title": "Memento",
+        "genre": [
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": 8.4,
+        "release_date": "2001-05-25"
+    },
+    {
+        "_id": 43,
+        "title": "Apocalypse Now",
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "rating": 8.4,
+        "release_date": "1979-08-15"
+    },
+    {
+        "_id": 44,
+        "title": "Django Unchained",
+        "genre": [
+            "Drama",
+            "Western"
+        ],
+        "rating": 8.4,
+        "release_date": "2012-12-25"
+    },
+    {
+        "_id": 45,
+        "title": "Cinema Paradiso",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.4,
+        "release_date": "1988-11-17"
+    },
+    {
+        "_id": 46,
+        "title": "Alien",
+        "genre": [
+            "Horror",
+            "Sci-Fi"
+        ],
+        "rating": 8.4,
+        "release_date": "1979-05-25"
+    },
+    {
+        "_id": 47,
+        "title": "Grave of the Fireflies",
+        "genre": [
+            "Animation",
+            "Drama",
+            "War"
+        ],
+        "rating": 8.4,
+        "release_date": "1988-04-16"
+    },
+    {
+        "_id": 48,
+        "title": "Once Upon a Time in the West",
+        "genre": [
+            "Western"
+        ],
+        "rating": 8.4,
+        "release_date": "1968-12-21"
+    },
+    {
+        "_id": 49,
+        "title": "Aliens",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rating": 8.4,
+        "release_date": "1986-07-18"
+    },
+    {
+        "_id": 50,
+        "title": "American Beauty",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.4,
+        "release_date": "1999-09-15"
+    },
+    {
+        "_id": 51,
+        "title": "Das Boot",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": 8.4,
+        "release_date": "1981-02-10"
+    },
+    {
+        "_id": 52,
+        "title": "WALL·E",
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Family"
+        ],
+        "rating": 8.4,
+        "release_date": "2008-06-27"
+    },
+    {
+        "_id": 53,
+        "title": "The Great Dictator",
+        "genre": [
+            "Comedy",
+            "Drama",
+            "War"
+        ],
+        "rating": 8.4,
+        "release_date": "1940-10-15"
+    },
+    {
+        "_id": 54,
+        "title": "The Sting",
+        "genre": [
+            "Comedy",
+            "Crime",
+            "Drama"
+        ],
+        "rating": 8.3,
+        "release_date": "1973-12-25"
+    },
+    {
+        "_id": 55,
+        "title": "Requiem for a Dream",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.3,
+        "release_date": "2000-10-27"
+    },
+    {
+        "_id": 56,
+        "title": "Indiana Jones and the Raiders of the Lost Ark",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "rating": 8.3,
+        "release_date": "1981-06-12"
+    },
+    {
+        "_id": 57,
+        "title": "A Clockwork Orange",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rating": 8.3,
+        "release_date": "1971-02-02"
+    },
+    {
+        "_id": 58,
+        "title": "Lawrence of Arabia",
+        "genre": [
+            "Adventure",
+            "Biography",
+            "Drama"
+        ],
+        "rating": 8.3,
+        "release_date": "1962-12-11"
+    },
+    {
+        "_id": 59,
+        "title": "Amélie",
+        "genre": [
+            "Comedy",
+            "Romance"
+        ],
+        "rating": 8.3,
+        "release_date": "2001-04-25"
+    },
+    {
+        "_id": 60,
+        "title": "To Kill a Mockingbird",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": 8.3,
+        "release_date": "1962-03-16"
+    },
+    {
+        "_id": 61,
+        "title": "Full Metal Jacket",
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "rating": 8.3,
+        "release_date": "1987-06-26"
+    },
+    {
+        "_id": 62,
+        "title": "Bicycle Thieves",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.3,
+        "release_date": "1948-12-13"
+    },
+    {
+        "_id": 63,
+        "title": "Singin' in the Rain",
+        "genre": [
+            "Comedy",
+            "Musical",
+            "Romance"
+        ],
+        "rating": 8.3,
+        "release_date": "1952-04-11"
+    },
+    {
+        "_id": 64,
+        "title": "The Apartment",
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "rating": 8.3,
+        "release_date": "1960-06-21"
+    },
+    {
+        "_id": 65,
+        "title": "Monty Python and the Holy Grail",
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "rating": 8.2,
+        "release_date": "1975-04-09"
+    },
+    {
+        "_id": 66,
+        "title": "Rashomon",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rating": 8.2,
+        "release_date": "1950-08-26"
+    },
+    {
+        "_id": 67,
+        "title": "Snatch",
+        "genre": [
+            "Comedy",
+            "Crime"
+        ],
+        "rating": 8.2,
+        "release_date": "2000-09-01"
+    },
+    {
+        "_id": 68,
+        "title": "The Kid",
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Family"
+        ],
+        "rating": 8.2,
+        "release_date": "1921-02-06"
+    },
+    {
+        "_id": 69,
+        "title": "Ikiru",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.2,
+        "release_date": "1952-10-09"
+    },
+    {
+        "_id": 70,
+        "title": "For a Few Dollars More",
+        "genre": [
+            "Western"
+        ],
+        "rating": 8.2,
+        "release_date": "1967-05-10"
+    },
+    {
+        "_id": 71,
+        "title": "2001: A Space Odyssey",
+        "genre": [
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rating": 8.2,
+        "release_date": "1968-04-10"
+    },
+    {
+        "_id": 72,
+        "title": "The Treasure of the Sierra Madre",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Western"
+        ],
+        "rating": 8.2,
+        "release_date": "1948-01-24"
+    },
+    {
+        "_id": 73,
+        "title": "A Beautiful Mind",
+        "genre": [
+            "Biography",
+            "Drama"
+        ],
+        "rating": 8.2,
+        "release_date": "2001-01-04"
+    },
+    {
+        "_id": 74,
+        "title": "Metropolis",
+        "genre": [
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rating": 8.2,
+        "release_date": "1927-01-10"
+    },
+    {
+        "_id": 75,
+        "title": "Fargo",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": 8.2,
+        "release_date": "1996-04-05"
+    },
+    {
+        "_id": 76,
+        "title": "The Elephant Man",
+        "genre": [
+            "Biography",
+            "Drama"
+        ],
+        "rating": 8.2,
+        "release_date": "1980-10-10"
+    },
+    {
+        "_id": 77,
+        "title": "Jurassic Park",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rating": 8.1,
+        "release_date": "1993-06-11"
+    },
+    {
+        "_id": 78,
+        "title": "Trainspotting",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.1,
+        "release_date": "1996-07-19"
+    },
+    {
+        "_id": 79,
+        "title": "Stalker",
+        "genre": [
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rating": 8.1,
+        "release_date": "1979-04-17"
+    },
+    {
+        "_id": 80,
+        "title": "The Seventh Seal",
+        "genre": [
+            "Drama",
+            "Fantasy"
+        ],
+        "rating": 8.1,
+        "release_date": "1957-02-16"
+    },
+    {
+        "_id": 81,
+        "title": "Raging Bull",
+        "genre": [
+            "Biography",
+            "Drama",
+            "Sport"
+        ],
+        "rating": 8.1,
+        "release_date": "1980-12-19"
+    },
+    {
+        "_id": 82,
+        "title": "Barry Lyndon",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "History"
+        ],
+        "rating": 8.1,
+        "release_date": "1975-12-18"
+    },
+    {
+        "_id": 83,
+        "title": "The Truman Show",
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rating": 8.1,
+        "release_date": "1998-06-05"
+    },
+    {
+        "_id": 84,
+        "title": "The Thing",
+        "genre": [
+            "Horror",
+            "Mystery",
+            "Sci-Fi"
+        ],
+        "rating": 8.1,
+        "release_date": "1982-06-25"
+    },
+    {
+        "_id": 85,
+        "title": "Gone with the Wind",
+        "genre": [
+            "Drama",
+            "History",
+            "Romance"
+        ],
+        "rating": 8.1,
+        "release_date": "1939-12-15"
+    },
+    {
+        "_id": 86,
+        "title": "Finding Nemo",
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Comedy"
+        ],
+        "rating": 8.1,
+        "release_date": "2003-05-30"
+    },
+    {
+        "_id": 87,
+        "title": "A Streetcar Named Desire",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.1,
+        "release_date": "1951-09-18"
+    },
+    {
+        "_id": 88,
+        "title": "Kill Bill: Vol. 1",
+        "genre": [
+            "Action",
+            "Crime"
+        ],
+        "rating": 8.1,
+        "release_date": "2003-10-10"
+    },
+    {
+        "_id": 89,
+        "title": "V for Vendetta",
+        "genre": [
+            "Action",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rating": 8.1,
+        "release_date": "2006-03-17"
+    },
+    {
+        "_id": 90,
+        "title": "Into the Wild",
+        "genre": [
+            "Adventure",
+            "Biography",
+            "Drama"
+        ],
+        "rating": 8.1,
+        "release_date": "2007-09-21"
+    },
+    {
+        "_id": 91,
+        "title": "Howl's Moving Castle",
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Family"
+        ],
+        "rating": 8.1,
+        "release_date": "2004-11-20"
+    },
+    {
+        "_id": 92,
+        "title": "My Neighbor Totoro",
+        "genre": [
+            "Animation",
+            "Family",
+            "Fantasy"
+        ],
+        "rating": 8.1,
+        "release_date": "1988-04-16"
+    },
+    {
+        "_id": 93,
+        "title": "No Country for Old Men",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": 8.1,
+        "release_date": "2007-11-21"
+    },
+    {
+        "_id": 94,
+        "title": "Gone Girl",
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": 8.1,
+        "release_date": "2014-10-03"
+    },
+    {
+        "_id": 95,
+        "title": "The Bridge on the River Kwai",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "War"
+        ],
+        "rating": 8.1,
+        "release_date": "1957-12-14"
+    },
+    {
+        "_id": 96,
+        "title": "The Grand Budapest Hotel",
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Crime"
+        ],
+        "rating": 8.1,
+        "release_date": "2014-03-28"
+    },
+    {
+        "_id": 97,
+        "title": "Princess Mononoke",
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Fantasy"
+        ],
+        "rating": 8.1,
+        "release_date": "1997-07-12"
+    },
+    {
+        "_id": 98,
+        "title": "Shutter Island",
+        "genre": [
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": 8.1,
+        "release_date": "2010-02-19"
+    },
+    {
+        "_id": 99,
+        "title": "Casablanca",
+        "genre": [
+            "Drama",
+            "Romance",
+            "War"
+        ],
+        "rating": 8.1,
+        "release_date": "1942-01-23"
+    },
+    {
+        "_id": 100,
+        "title": "The Sixth Sense",
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": 8.1,
+        "release_date": "1999-08-06"
+    },
+    {
+        "_id": 101,
+        "title": "The Wizard of Oz",
+        "genre": [
+            "Adventure",
+            "Family",
+            "Fantasy"
+        ],
+        "rating": 8,
+        "release_date": "1939-08-25"
+    },
+    {
+        "_id": 102,
+        "title": "Persona",
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "rating": 8,
+        "release_date": "1966-10-16"
+    },
+    {
+        "_id": 103,
+        "title": "Wild Strawberries",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8,
+        "release_date": "1957-12-26"
+    },
+    {
+        "_id": 104,
+        "title": "Ran",
+        "genre": [
+            "Action",
+            "Drama"
+        ],
+        "rating": 8,
+        "release_date": "1985-06-01"
+    },
+    {
+        "_id": 105,
+        "title": "Some Like It Hot",
+        "genre": [
+            "Comedy",
+            "Romance"
+        ],
+        "rating": 8,
+        "release_date": "1959-03-29"
+    },
+    {
+        "_id": 106,
+        "title": "Andrei Rublev",
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rating": 8,
+        "release_date": "1966-12-01"
+    },
+    {
+        "_id": 107,
+        "title": "The Night of the Hunter",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Film-Noir"
+        ],
+        "rating": 8,
+        "release_date": "1955-09-29"
+    },
+    {
+        "_id": 108,
+        "title": "The 400 Blows",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": 8,
+        "release_date": "1959-05-04"
+    },
+    {
+        "_id": 109,
+        "title": "Prisoners",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rating": 8,
+        "release_date": "2013-09-20"
+    },
+    {
+        "_id": 110,
+        "title": "Memories of Murder",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rating": 8,
+        "release_date": "2003-05-02"
+    },
+    {
+        "_id": 111,
+        "title": "The Great Escape",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "History"
+        ],
+        "rating": 8,
+        "release_date": "1963-07-04"
+    },
+    {
+        "_id": 112,
+        "title": "Gandhi",
+        "genre": [
+            "Biography",
+            "Drama"
+        ],
+        "rating": 8,
+        "release_date": "1982-12-10"
+    },
+    {
+        "_id": 113,
+        "title": "Heat",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": 8,
+        "release_date": "1995-12-15"
+    },
+    {
+        "_id": 114,
+        "title": "The Deer Hunter",
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "rating": 8,
+        "release_date": "1978-03-23"
+    },
+    {
+        "_id": 115,
+        "title": "Platoon",
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "rating": 8,
+        "release_date": "1987-12-24"
+    },
+    {
+        "_id": 116,
+        "title": "Casino",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": 8,
+        "release_date": "1995-11-22"
+    },
+    {
+        "_id": 117,
+        "title": "Children of Heaven",
+        "genre": [
+            "Drama",
+            "Family"
+        ],
+        "rating": 8,
+        "release_date": "1997-02-01"
+    },
+    {
+        "_id": 118,
+        "title": "Barfi!",
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "rating": 8,
+        "release_date": "2012-09-14"
+    },
+    {
+        "_id": 119,
+        "title": "Rocky",
+        "genre": [
+            "Drama",
+            "Sport"
+        ],
+        "rating": 8,
+        "release_date": "1976-12-03"
+    },
+    {
+        "_id": 120,
+        "title": "Network",
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8,
+        "release_date": "1976-11-27"
+    }
+]
