@@ -1,0 +1,17 @@
+{
+    "name": "express-neo4j-example",
+    "version": "1.0.0",
+    "description": "Example of using Express.js with Neo4J",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Adrian Widlak",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "cors": "2.8.5",
+      "neo4j-driver": "^4.4.1"
+    }
+  }
+  
