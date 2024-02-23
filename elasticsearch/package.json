@@ -1,0 +1,23 @@
+{
+    "name": "express-elastic-example",
+    "version": "1.0.0",
+    "description": "A movie search application using Node.js, Express.js, and Elasticsearch.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "movie",
+      "search",
+      "Node.js",
+      "Express.js",
+      "Elasticsearch"
+    ],
+    "author": "Adrian Widlak",
+    "license": "MIT",
+    "dependencies": {
+      "@elastic/elasticsearch": "^7.16.0",
+      "express": "^4.17.2"
+    }
+  }
+  
