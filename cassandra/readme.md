@@ -82,6 +82,10 @@ CREATE TABLE IF NOT EXISTS movies (
 );
 ```
 
+```
+SELECT table_name FROM system_schema.tables WHERE keyspace_name = 'movies_keyspace';
+```
+
 ### 2. Dodawanie rekordów
 Dodaj kilka rekordów do tabeli movies.
 
@@ -104,8 +108,8 @@ SELECT * FROM movies;
 Zaktualizuj jedno z istniejących rekordów, np. zmień rok premiery filmu "Incepcja" na 2012.
 
 ```
-UPDATE movies SET release_year = 2012 WHERE title = 'Inception';
-```
+UPDATE movies SET release_year = 2012 WHERE id = 3584b2f3-ae1b-4aaa-af03-7f6ae9615d11;
+``
 
 ### 5. Sprawdzenie zaktualizowanego rekordu
 Sprawdź, czy aktualizacja została wykonana poprawnie.
@@ -266,3 +270,54 @@ Pamiętaj, że plik musi być dostępny w systemie plików na maszynie, na któr
 ```
 docker cp /path/to/local/file.csv cassandra-1:/path/to/container/file.csv
 ```
+
+### COLLECTIONS
+
+In Cassandra, collections allow you to store multiple values within a single column of a row. There are three main types of collections in Cassandra: sets, lists, and maps.
+
+Set: A set is a collection of elements where each element is unique and unordered.
+
+```
+CREATE TABLE my_set (
+    id UUID PRIMARY KEY,
+    tags SET<TEXT>
+);
+```
+
+Example of inserting data into a set:
+
+```
+INSERT INTO my_set (id, tags) VALUES (uuid(), {'action', 'adventure', 'sci-fi'});
+```
+
+List: A list is an ordered collection of elements where duplicates are allowed.
+
+```
+CREATE TABLE my_list (
+    id UUID PRIMARY KEY,
+    ratings LIST<INT>
+);
+```
+
+Example of inserting data into a list:
+
+```
+INSERT INTO my_list (id, ratings) VALUES (uuid(), [4, 5, 5, 3]);
+```
+
+Map: A map is a collection of key-value pairs where keys are unique within the map.
+
+```
+CREATE TABLE my_map (
+    id UUID PRIMARY KEY,
+    properties MAP<TEXT, TEXT>
+);
+```
+
+Example of inserting data into a map:
+
+```
+INSERT INTO my_map (id, properties) VALUES (uuid(), {'director': 'Christopher Nolan', 'year': '2010'});
+```
+
+Collections can be very useful for modeling certain types of data in Cassandra, but they should be used judiciously because they can lead to performance issues if overused or if the collections become too large. It's important to understand your data access patterns and how you plan to query the data when deciding whether to use collections in your schema.
