@@ -21,7 +21,7 @@ POST example/_doc
 POST example/_doc 
 {
   "title": "The Polar Express",
-  "release": 2004,
+  "release": "2004a",
   "director": "Robert Zemeckis"
 }
 
@@ -250,7 +250,8 @@ GET _analyze
 Zdefiniuj niestandardowy analizator z określonymi filtrami tokenów i filtrami znaków (np. małe litery, usuwanie słów stop, stemming itp.).
 Zastosuj niestandardowy analizator do próbki tekstu i obserwuj wyniki tokenizacji.
 
-```PUT my-index-000001
+```
+PUT my-index-000001
 {
   "settings": {
     "analysis": {
@@ -280,7 +281,7 @@ POST my-index-000001/_analyze
 lub
 
 ```
-GET _analyze
+GET my-index-000001/_analyze
 {
   "analyzer": "my_custom_analyzer",
   "text": "The quick brown fox jumps over the lazy dog"

@@ -109,7 +109,7 @@ Zaktualizuj jedno z istniejących rekordów, np. zmień rok premiery filmu "Ince
 
 ```
 UPDATE movies SET release_year = 2012 WHERE id = 3584b2f3-ae1b-4aaa-af03-7f6ae9615d11;
-``
+```
 
 ### 5. Sprawdzenie zaktualizowanego rekordu
 Sprawdź, czy aktualizacja została wykonana poprawnie.
@@ -135,7 +135,7 @@ ALTER INDEX director_index RENAME TO new_director_index;
 ```
 
 ### BATCH
-<a name="batch"></a>
+<!-- <a name="batch"></a> -->
 
 Aktualizacja filmu i wykorzystanie BATCH
 
@@ -147,7 +147,7 @@ UPDATE movies SET release_year = 2012 WHERE title = 'Inception';
 APPLY BATCH;
 ```
 
-<a name="ttl"></a>
+<!-- <a name="ttl"></a> -->
 ### Wykorzystanie TTL w operacjach na danych
 
 
@@ -197,7 +197,7 @@ SELECT * FROM sessions WHERE session_id = <session_id>;
 ```
 
 
-<a name="trigger"></a>
+<!-- <a name="trigger"></a> -->
 ### Wykorzystanie wyzwalaczy do monitorowania i modyfikowania danych
 
 Utwórz przestrzeń kluczy transaction_keyspace oraz tabelę transactions, która będzie przechowywać informacje o transakcjach, takie jak transaction_id, user_id, amount, timestamp.
@@ -321,3 +321,12 @@ INSERT INTO my_map (id, properties) VALUES (uuid(), {'director': 'Christopher No
 ```
 
 Collections can be very useful for modeling certain types of data in Cassandra, but they should be used judiciously because they can lead to performance issues if overused or if the collections become too large. It's important to understand your data access patterns and how you plan to query the data when deciding whether to use collections in your schema.
+
+
+
+
+CREATE TABLE IF NOT EXISTS sessions (
+    session_id UUID PRIMARY KEY,
+    user_id UUID,
+    login_time TIMESTAMP
+);

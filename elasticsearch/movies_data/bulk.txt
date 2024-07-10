@@ -1,0 +1,101 @@
+POST movies/_bulk
+{ "index": { "_id": "26" }}
+{ "title": "Oppenheimer", "release": "2023", "director": "Christopher Nolan", "rating": 8.7, "genre": ["Biography", "Drama"], "actors": ["Cillian Murphy", "Emily Blunt"], "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.", "box_office": "$600 million" }
+{ "index": { "_id": "27" }}
+{ "title": "Barbie", "release": "2023", "director": "Greta Gerwig", "rating": 7.6, "genre": ["Adventure", "Comedy"], "actors": ["Margot Robbie", "Ryan Gosling"], "description": "Barbie suffers a crisis that leads her to question her world and her existence.", "box_office": "$500 million" }
+{ "index": { "_id": "28" }}
+{ "title": "Guardians of the Galaxy Vol. 3", "release": "2023", "director": "James Gunn", "rating": 8.2, "genre": ["Action", "Adventure"], "actors": ["Chris Pratt", "Zoe Saldana"], "description": "The Guardians of the Galaxy return to face a new threat.", "box_office": "$800 million" }
+{ "index": { "_id": "29" }}
+{ "title": "John Wick: Chapter 4", "release": "2023", "director": "Chad Stahelski", "rating": 7.9, "genre": ["Action", "Thriller"], "actors": ["Keanu Reeves", "Laurence Fishburne"], "description": "John Wick uncovers a path to defeating The High Table.", "box_office": "$450 million" }
+{ "index": { "_id": "30" }}
+{ "title": "Mission: Impossible - Dead Reckoning Part One", "release": "2023", "director": "Christopher McQuarrie", "rating": 7.8, "genre": ["Action", "Adventure"], "actors": ["Tom Cruise", "Rebecca Ferguson"], "description": "Ethan Hunt and his IMF team must track down a terrifying new weapon that threatens all of humanity.", "box_office": "$700 million" }
+{ "index": { "_id": "31" }}
+{ "title": "Dune: Part Two", "release": "2023", "director": "Denis Villeneuve", "rating": 8.1, "genre": ["Adventure", "Drama"], "actors": ["Timothée Chalamet", "Zendaya"], "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.", "box_office": "$650 million" }
+{ "index": { "_id": "32" }}
+{ "title": "Indiana Jones and the Dial of Destiny", "release": "2023", "director": "James Mangold", "rating": 6.9, "genre": ["Action", "Adventure"], "actors": ["Harrison Ford", "Phoebe Waller-Bridge"], "description": "Indiana Jones comes out of retirement to face a new challenge.", "box_office": "$400 million" }
+{ "index": { "_id": "33" }}
+{ "title": "Fast X", "release": "2023", "director": "Louis Leterrier", "rating": 6.7, "genre": ["Action", "Crime"], "actors": ["Vin Diesel", "Michelle Rodriguez"], "description": "Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes.", "box_office": "$800 million" }
+{ "index": { "_id": "34" }}
+{ "title": "Spider-Man: Across the Spider-Verse", "release": "2023", "director": "Joaquim Dos Santos", "rating": 9.0, "genre": ["Animation", "Action"], "actors": ["Shameik Moore", "Hailee Steinfeld"], "description": "Miles Morales embarks on an epic adventure that will transport him across the Multiverse.", "box_office": "$600 million" }
+{ "index": { "_id": "35" }}
+{ "title": "The Flash", "release": "2023", "director": "Andy Muschietti", "rating": 6.9, "genre": ["Action", "Adventure"], "actors": ["Ezra Miller", "Michael Keaton"], "description": "Barry Allen uses his super speed to change the past, but his attempt to save his family creates a world without superheroes.", "box_office": "$550 million" }
+{ "index": { "_id": "36" }}
+{ "title": "Transformers: Rise of the Beasts", "release": "2023", "director": "Steven Caple Jr.", "rating": 6.6, "genre": ["Action", "Adventure"], "actors": ["Anthony Ramos", "Dominique Fishback"], "description": "The Autobots join forces with the Maximals to save Earth.", "box_office": "$500 million" }
+{ "index": { "_id": "37" }}
+{ "title": "The Marvels", "release": "2023", "director": "Nia DaCosta", "rating": 7.0, "genre": ["Action", "Adventure"], "actors": ["Brie Larson", "Teyonah Parris"], "description": "Carol Danvers, Monica Rambeau, and Kamala Khan team up to face a new cosmic threat.", "box_office": "$600 million" }
+{ "index": { "_id": "38" }}
+{ "title": "Elemental", "release": "2023", "director": "Peter Sohn", "rating": 7.4, "genre": ["Animation", "Comedy"], "actors": ["Leah Lewis", "Mamoudou Athie"], "description": "In a city where fire, water, land, and air residents live together, a fiery young woman and a go-with-the-flow guy are about to discover something elemental.", "box_office": "$400 million" }
+{ "index": { "_id": "39" }}
+{ "title": "Wonka", "release": "2023", "director": "Paul King", "rating": 7.8, "genre": ["Adventure", "Comedy"], "actors": ["Timothée Chalamet", "Olivia Colman"], "description": "A young Willy Wonka embarks on a quest to build his chocolate empire.", "box_office": "$500 million" }
+{ "index": { "_id": "40" }}
+{ "title": "Aquaman and the Lost Kingdom", "release": "2023", "director": "James Wan", "rating": 7.1, "genre": ["Action", "Adventure"], "actors": ["Jason Momoa", "Amber Heard"], "description": "Aquaman forges an uneasy alliance with an unlikely ally to save Atlantis and the rest of the planet.", "box_office": "$700 million" }
+{ "index": { "_id": "41" }}
+{ "title": "The Little Mermaid", "release": "2023", "director": "Rob Marshall", "rating": 7.2, "genre": ["Adventure", "Family"], "actors": ["Halle Bailey", "Jonah Hauer-King"], "description": "A young mermaid makes a deal with a sea witch to trade her beautiful voice for human legs so she can discover the world above water and impress a prince.", "box_office": "$550 million" }
+{ "index": { "_id": "42" }}
+{ "title": "The Hunger Games: The Ballad of Songbirds and Snakes", "release": "2023", "director": "Francis Lawrence", "rating": 7.5, "genre": ["Action", "Adventure"], "actors": ["Tom Blyth", "Rachel Zegler"], "description": "Years before he would become the tyrannical President of Panem, young Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.", "box_office": "$450 million" }
+{ "index": { "_id": "43" }}
+{ "title": "Blue Beetle", "release": "2023", "director": "Angel Manuel Soto", "rating": 6.8, "genre": ["Action", "Adventure"], "actors": ["Xolo Maridueña", "Bruna Marquezine"], "description": "A Mexican teenager finds an alien beetle that gives him superpowered armor.", "box_office": "$300 million" }
+{ "index": { "_id": "44" }}
+{ "title": "The Exorcist: Believer", "release": "2023", "director": "David Gordon Green", "rating": 6.5, "genre": ["Horror"], "actors": ["Ellen Burstyn", "Leslie Odom Jr."], "description": "Sequel to the classic horror film, exploring new terrors.", "box_office": "$250 million" }
+{ "index": { "_id": "45" }}
+{ "title": "Saw X", "release": "2023", "director": "Kevin Greutert", "rating": 6.1, "genre": ["Horror", "Thriller"], "actors": ["Tobin Bell", "Shawnee Smith"], "description": "A new installment in the Saw franchise.", "box_office": "$150 million" }
+{ "index": { "_id": "46" }}
+{ "title": "Scream VI", "release": "2023", "director": "Matt Bettinelli-Olpin", "rating": 7.0, "genre": ["Horror", "Mystery"], "actors": ["Melissa Barrera", "Jenna Ortega"], "description": "The survivors of the latest Ghostface killings leave Woodsboro behind and start a fresh chapter in New York City.", "box_office": "$200 million" }
+{ "index": { "_id": "47" }}
+{ "title": "Shazam! Fury of the Gods", "release": "2023", "director": "David F. Sandberg", "rating": 6.4, "genre": ["Action", "Comedy"], "actors": ["Zachary Levi", "Asher Angel"], "description": "Shazam and his allies take on new threats in this superhero sequel.", "box_office": "$350 million" }
+{ "index": { "_id": "48" }}
+{ "title": "The Equalizer 3", "release": "2023", "director": "Antoine Fuqua", "rating": 7.1, "genre": ["Action", "Thriller"], "actors": ["Denzel Washington", "Dakota Fanning"], "description": "Robert McCall finds himself in Southern Italy where he learns that his friends are under the control of local crime bosses.", "box_office": "$300 million" }
+{ "index": { "_id": "49" }}
+{ "title": "Ghostbusters: Afterlife 2", "release": "2023", "director": "Jason Reitman", "rating": 7.5, "genre": ["Comedy", "Fantasy"], "actors": ["Paul Rudd", "Finn Wolfhard"], "description": "The Ghostbusters return to face a new paranormal threat.", "box_office": "$400 million" }
+{ "index": { "_id": "50" }}
+{ "title": "Meg 2: The Trench", "release": "2023", "director": "Ben Wheatley", "rating": 5.9, "genre": ["Action", "Horror"], "actors": ["Jason Statham", "Li Bingbing"], "description": "Jonas Taylor leads a research team on an exploratory dive into the deepest parts of the ocean, but a malevolent mining operation threatens their mission.", "box_office": "$350 million" }
+{ "index": { "_id": "51" }}
+{ "title": "Renfield", "release": "2023", "director": "Chris McKay", "rating": 6.4, "genre": ["Comedy", "Horror"], "actors": ["Nicholas Hoult", "Nicolas Cage"], "description": "Renfield, Dracula's henchman, finds a new lease on life in modern-day New Orleans.", "box_office": "$200 million" }
+{ "index": { "_id": "52" }}
+{ "title": "The Nun II", "release": "2023", "director": "Michael Chaves", "rating": 6.0, "genre": ["Horror", "Mystery"], "actors": ["Taissa Farmiga", "Bonnie Aarons"], "description": "Sequel to the horror film 'The Nun'.", "box_office": "$300 million" }
+{ "index": { "_id": "53" }}
+{ "title": "65", "release": "2023", "director": "Scott Beck", "rating": 5.7, "genre": ["Action", "Adventure"], "actors": ["Adam Driver", "Ariana Greenblatt"], "description": "An astronaut crash lands on a mysterious planet only to discover he's not alone.", "box_office": "$100 million" }
+{ "index": { "_id": "54" }}
+{ "title": "The Blackening", "release": "2023", "director": "Tim Story", "rating": 6.5, "genre": ["Comedy", "Horror"], "actors": ["Grace Byers", "Jermaine Fowler"], "description": "Seven black friends who go away for the weekend only to find themselves trapped in a cabin with a killer who has a vendetta.", "box_office": "$50 million" }
+{ "index": { "_id": "55" }}
+{ "title": "The Super Mario Bros. Movie", "release": "2023", "director": "Aaron Horvath", "rating": 7.3, "genre": ["Animation", "Adventure"], "actors": ["Chris Pratt", "Anya Taylor-Joy"], "description": "The story of Mario and Luigi, two plumbers who embark on a journey through the Mushroom Kingdom.", "box_office": "$1 billion" }
+{ "index": { "_id": "56" }}
+{ "title": "Wish", "release": "2023", "director": "Chris Buck", "rating": 6.9, "genre": ["Animation", "Adventure"], "actors": ["Ariana DeBose", "Chris Pine"], "description": "A young girl wishes for her dreams to come true in a magical world.", "box_office": "$400 million" }
+{ "index": { "_id": "57" }}
+{ "title": "Evil Dead Rise", "release": "2023", "director": "Lee Cronin", "rating": 6.7, "genre": ["Horror"], "actors": ["Alyssa Sutherland", "Lily Sullivan"], "description": "A twisted tale of two estranged sisters whose reunion is cut short by the rise of flesh-possessing demons.", "box_office": "$250 million" }
+{ "index": { "_id": "58" }}
+{ "title": "Napoleon", "release": "2023", "director": "Ridley Scott", "rating": 7.5, "genre": ["Biography", "Drama"], "actors": ["Joaquin Phoenix", "Vanessa Kirby"], "description": "A look at the rise and fall of French Emperor Napoleon Bonaparte.", "box_office": "$350 million" }
+{ "index": { "_id": "59" }}
+{ "title": "Killers of the Flower Moon", "release": "2023", "director": "Martin Scorsese", "rating": 8.2, "genre": ["Crime", "Drama"], "actors": ["Leonardo DiCaprio", "Robert De Niro"], "description": "Members of the Osage tribe in the United States are murdered under mysterious circumstances in the 1920s.", "box_office": "$400 million" }
+{ "index": { "_id": "60" }}
+{ "title": "The Killer", "release": "2023", "director": "David Fincher", "rating": 7.8, "genre": ["Thriller"], "actors": ["Michael Fassbender", "Tilda Swinton"], "description": "A man solitary and cold, methodical and unencumbered by scruples or regrets, the killer waits in the shadows, watching for his next target.", "box_office": "$300 million" }
+{ "index": { "_id": "61" }}
+{ "title": "Argylle", "release": "2023", "director": "Matthew Vaughn", "rating": 7.1, "genre": ["Action", "Thriller"], "actors": ["Henry Cavill", "Bryce Dallas Howard"], "description": "A world-class spy suffering from amnesia is on a mission to find out who he really is.", "box_office": "$350 million" }
+{ "index": { "_id": "62" }}
+{ "title": "Maestro", "release": "2023", "director": "Bradley Cooper", "rating": 7.6, "genre": ["Biography", "Drama"], "actors": ["Bradley Cooper", "Carey Mulligan"], "description": "The complex love story of Leonard Bernstein and Felicia Montealegre.", "box_office": "$150 million" }
+{ "index": { "_id": "63" }}
+{ "title": "Priscilla", "release": "2023", "director": "Sofia Coppola", "rating": 7.3, "genre": ["Biography", "Drama"], "actors": ["Cailee Spaeny", "Jacob Elordi"], "description": "When teenage Priscilla Beaulieu meets Elvis Presley at a party, the man who is already a meteoric rock-and-roll superstar becomes someone altogether unexpected in private moments: a thrilling crush, an ally in loneliness, a vulnerable best friend.", "box_office": "$200 million" }
+{ "index": { "_id": "64" }}
+{ "title": "Ferrari", "release": "2023", "director": "Michael Mann", "rating": 7.5, "genre": ["Biography", "Drama"], "actors": ["Adam Driver", "Penélope Cruz"], "description": "The life story of Italian sports car entrepreneur Enzo Ferrari.", "box_office": "$250 million" }
+{ "index": { "_id": "65" }}
+{ "title": "Air", "release": "2023", "director": "Ben Affleck", "rating": 7.7, "genre": ["Drama", "Sport"], "actors": ["Matt Damon", "Ben Affleck"], "description": "The story of how Nike signed basketball superstar Michael Jordan to its brand.", "box_office": "$175 million" }
+{ "index": { "_id": "66" }}
+{ "title": "The Whale", "release": "2023", "director": "Darren Aronofsky", "rating": 7.8, "genre": ["Drama"], "actors": ["Brendan Fraser", "Sadie Sink"], "description": "A reclusive English teacher suffering from severe obesity attempts to reconnect with his estranged teenage daughter for one last chance at redemption.", "box_office": "$120 million" }
+{ "index": { "_id": "67" }}
+{ "title": "Inside", "release": "2023", "director": "Vasilis Katsoupis", "rating": 6.5, "genre": ["Drama", "Thriller"], "actors": ["Willem Dafoe"], "description": "A high-end art thief becomes trapped in a luxury, high-tech penthouse in New York's Times Square after his heist doesn't go as planned.", "box_office": "$80 million" }
+{ "index": { "_id": "68" }}
+{ "title": "A Haunting in Venice", "release": "2023", "director": "Kenneth Branagh", "rating": 6.8, "genre": ["Crime", "Drama"], "actors": ["Kenneth Branagh", "Michelle Yeoh"], "description": "In post-World War II Venice, Hercule Poirot, now retired and living in his own exile, reluctantly attends a séance when one of the guests is murdered.", "box_office": "$130 million" }
+{ "index": { "_id": "69" }}
+{ "title": "Next Goal Wins", "release": "2023", "director": "Taika Waititi", "rating": 7.0, "genre": ["Comedy", "Drama"], "actors": ["Michael Fassbender", "Elisabeth Moss"], "description": "The story of the infamously terrible American Samoa soccer team, known for losing 31-0 in a match in 2001, and their coach's attempts to turn the team around.", "box_office": "$40 million" }
+{ "index": { "_id": "70" }}
+{ "title": "The Holdovers", "release": "2023", "director": "Alexander Payne", "rating": 7.3, "genre": ["Comedy", "Drama"], "actors": ["Paul Giamatti", "Da'Vine Joy Randolph"], "description": "A cranky history teacher at a prep school is forced to remain on campus over the holidays with a group of students who have nowhere to go.", "box_office": "$50 million" }
+{ "index": { "_id": "71" }}
+{ "title": "Strays", "release": "2023", "director": "Josh Greenbaum", "rating": 6.3, "genre": ["Comedy"], "actors": ["Will Ferrell", "Jamie Foxx"], "description": "An abandoned dog teams up with other strays to get revenge on his former owner.", "box_office": "$100 million" }
+{ "index": { "_id": "72" }}
+{ "title": "Kraven the Hunter", "release": "2023", "director": "J.C. Chandor", "rating": 6.8, "genre": ["Action", "Adventure"], "actors": ["Aaron Taylor-Johnson", "Russell Crowe"], "description": "Russian immigrant Sergei Kravinoff is on a mission to prove that he is the greatest hunter in the world.", "box_office": "$300 million" }
+{ "index": { "_id": "73" }}
+{ "title": "The Last Voyage of the Demeter", "release": "2023", "director": "André Øvredal", "rating": 6.2, "genre": ["Horror", "Thriller"], "actors": ["Corey Hawkins", "Aisling Franciosi"], "description": "A chilling chapter from Bram Stoker's 'Dracula' featuring the doomed crew of the merchant ship Demeter.", "box_office": "$80 million" }
+{ "index": { "_id": "74" }}
+{ "title": "The Boogeyman", "release": "2023", "director": "Rob Savage", "rating": 6.1, "genre": ["Horror"], "actors": ["Sophie Thatcher", "Chris Messina"], "description": "A psychological horror about a young girl and her siblings tormented by a sinister presence in their home.", "box_office": "$90 million" }
+{ "index": { "_id": "75" }}
+{ "title": "White Bird: A Wonder Story", "release": "2023", "director": "Marc Forster", "rating": 7.2, "genre": ["Drama"], "actors": ["Gillian Anderson", "Helen Mirren"], "description": "A young Jewish girl hidden away by a boy and his family in Nazi-occupied France during World War II.", "box_office": "$60 million" }

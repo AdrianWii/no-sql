@@ -148,3 +148,14 @@ db.movies.aggregate([
 ])
 
 ```
+
+4. List all distinct keys from documents in a collection
+
+```
+db.movies.aggregate([
+  { $project: { keys: { $objectToArray: "$$ROOT" } } },
+  { $unwind: "$keys" },
+  { $group: { _id: null, allKeys: { $addToSet: "$keys.k" } } },
+  { $project: { _id: 0, allKeys: 1 } }
+])
+```

@@ -1,0 +1,61 @@
+POST ecommerce/_bulk
+{ "index": { "_id": "1" }}
+{ "order_id": "1001", "date": "2023-01-15", "customer_id": "C001", "product_category": "Electronics", "product_id": "P001", "quantity": 1, "price": 299.99, "discount": 10, "region": "North America" }
+{ "index": { "_id": "2" }}
+{ "order_id": "1002", "date": "2023-01-16", "customer_id": "C002", "product_category": "Books", "product_id": "P002", "quantity": 2, "price": 15.99, "discount": 5, "region": "Europe" }
+{ "index": { "_id": "3" }}
+{ "order_id": "1003", "date": "2023-01-17", "customer_id": "C003", "product_category": "Clothing", "product_id": "P003", "quantity": 3, "price": 25.99, "discount": 0, "region": "Asia" }
+{ "index": { "_id": "4" }}
+{ "order_id": "1004", "date": "2023-01-18", "customer_id": "C004", "product_category": "Electronics", "product_id": "P004", "quantity": 1, "price": 199.99, "discount": 15, "region": "North America" }
+{ "index": { "_id": "5" }}
+{ "order_id": "1005", "date": "2023-01-19", "customer_id": "C005", "product_category": "Home & Kitchen", "product_id": "P005", "quantity": 1, "price": 89.99, "discount": 10, "region": "Europe" }
+{ "index": { "_id": "6" }}
+{ "order_id": "1006", "date": "2023-01-20", "customer_id": "C006", "product_category": "Books", "product_id": "P006", "quantity": 4, "price": 12.99, "discount": 5, "region": "North America" }
+{ "index": { "_id": "7" }}
+{ "order_id": "1007", "date": "2023-01-21", "customer_id": "C007", "product_category": "Clothing", "product_id": "P007", "quantity": 2, "price": 35.99, "discount": 0, "region": "Asia" }
+{ "index": { "_id": "8" }}
+{ "order_id": "1008", "date": "2023-01-22", "customer_id": "C008", "product_category": "Electronics", "product_id": "P008", "quantity": 1, "price": 399.99, "discount": 20, "region": "North America" }
+{ "index": { "_id": "9" }}
+{ "order_id": "1009", "date": "2023-01-23", "customer_id": "C009", "product_category": "Home & Kitchen", "product_id": "P009", "quantity": 2, "price": 49.99, "discount": 10, "region": "Europe" }
+{ "index": { "_id": "10" }}
+{ "order_id": "1010", "date": "2023-01-24", "customer_id": "C010", "product_category": "Books", "product_id": "P010", "quantity": 3, "price": 9.99, "discount": 5, "region": "North America" }
+{ "index": { "_id": "11" }}
+{ "order_id": "1011", "date": "2023-01-25", "customer_id": "C011", "product_category": "Clothing", "product_id": "P011", "quantity": 1, "price": 45.99, "discount": 0, "region": "Asia" }
+{ "index": { "_id": "12" }}
+{ "order_id": "1012", "date": "2023-01-26", "customer_id": "C012", "product_category": "Electronics", "product_id": "P012", "quantity": 1, "price": 499.99, "discount": 25, "region": "North America" }
+{ "index": { "_id": "13" }}
+{ "order_id": "1013", "date": "2023-01-27", "customer_id": "C013", "product_category": "Home & Kitchen", "product_id": "P013", "quantity": 3, "price": 59.99, "discount": 10, "region": "Europe" }
+{ "index": { "_id": "14" }}
+{ "order_id": "1014", "date": "2023-01-28", "customer_id": "C014", "product_category": "Books", "product_id": "P014", "quantity": 2, "price": 14.99, "discount": 5, "region": "North America" }
+{ "index": { "_id": "15" }}
+{ "order_id": "1015", "date": "2023-01-29", "customer_id": "C015", "product_category": "Clothing", "product_id": "P015", "quantity": 2, "price": 29.99, "discount": 0, "region": "Asia" }
+{ "index": { "_id": "16" }}
+{ "order_id": "1016", "date": "2023-01-30", "customer_id": "C016", "product_category": "Electronics", "product_id": "P016", "quantity": 1, "price": 249.99, "discount": 20, "region": "North America" }
+{ "index": { "_id": "17" }}
+{ "order_id": "1017", "date": "2023-01-31", "customer_id": "C017", "product_category": "Home & Kitchen", "product_id": "P017", "quantity": 1, "price": 79.99, "discount": 10, "region": "Europe" }
+{ "index": { "_id": "18" }}
+{ "order_id": "1018", "date": "2023-02-01", "customer_id": "C018", "product_category": "Books", "product_id": "P018", "quantity": 5, "price": 11.99, "discount": 5, "region": "North America" }
+{ "index": { "_id": "19" }}
+{ "order_id": "1019", "date": "2023-02-02", "customer_id": "C019", "product_category": "Clothing", "product_id": "P019", "quantity": 1, "price": 39.99, "discount": 0, "region": "Asia" }
+{ "index": { "_id": "20" }}
+{ "order_id": "1020", "date": "2023-02-03", "customer_id": "C020", "product_category": "Electronics", "product_id": "P020", "quantity": 1, "price": 349.99, "discount": 15, "region": "North America" }
+{ "index": { "_id": "21" }}
+{ "order_id": "1021", "date": "2023-02-04", "customer_id": "C021", "product_category": "Home & Kitchen", "product_id": "P021", "quantity": 2, "price": 69.99, "discount": 10, "region": "Europe" }
+{ "index": { "_id": "22" }}
+{ "order_id": "1022", "date": "2023-02-05", "customer_id": "C022", "product_category": "Books", "product_id": "P022", "quantity": 3, "price": 13.99, "discount": 5, "region": "North America" }
+{ "index": { "_id": "23" }}
+{ "order_id": "1023", "date": "2023-02-06", "customer_id": "C023", "product_category": "Clothing", "product_id": "P023", "quantity": 2, "price": 31.99, "discount": 0, "region": "Asia" }
+{ "index": { "_id": "24" }}
+{ "order_id": "1024", "date": "2023-02-07", "customer_id": "C024", "product_category": "Electronics", "product_id": "P024", "quantity": 1, "price": 279.99, "discount": 20, "region": "North America" }
+{ "index": { "_id": "25" }}
+{ "order_id": "1025", "date": "2023-02-08", "customer_id": "C025", "product_category": "Home & Kitchen", "product_id": "P025", "quantity": 3, "price": 89.99, "discount": 10, "region": "Europe" }
+{ "index": { "_id": "26" }}
+{ "order_id": "1026", "date": "2023-02-09", "customer_id": "C026", "product_category": "Books", "product_id": "P026", "quantity": 4, "price": 10.99, "discount": 5, "region": "North America" }
+{ "index": { "_id": "27" }}
+{ "order_id": "1027", "date": "2023-02-10", "customer_id": "C027", "product_category": "Clothing", "product_id": "P027", "quantity": 1, "price": 27.99, "discount": 0, "region": "Asia" }
+{ "index": { "_id": "28" }}
+{ "order_id": "1028", "date": "2023-02-11", "customer_id": "C028", "product_category": "Electronics", "product_id": "P028", "quantity": 1, "price": 399.99, "discount": 20, "region": "North America" }
+{ "index": { "_id": "29" }}
+{ "order_id": "1029", "date": "2023-02-12", "customer_id": "C029", "product_category": "Home & Kitchen", "product_id": "P029", "quantity": 2, "price": 59.99, "discount": 10, "region": "Europe" }
+{ "index": { "_id": "30" }}
+{ "order_id": "1030", "date": "2023-02-13", "customer_id": "C030", "product_category": "Books", "product_id": "P030", "quantity": 5, "price": 9.99, "discount": 5, "region": "North America" }
