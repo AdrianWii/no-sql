@@ -196,57 +196,6 @@ SELECT * FROM sessions WHERE session_id = <session_id>;
 
 ```
 
-
-<!-- <a name="trigger"></a> -->
-### Wykorzystanie wyzwalaczy do monitorowania i modyfikowania danych
-
-Utwórz przestrzeń kluczy transaction_keyspace oraz tabelę transactions, która będzie przechowywać informacje o transakcjach, takie jak transaction_id, user_id, amount, timestamp.
-
-```
-CREATE KEYSPACE IF NOT EXISTS transaction_keyspace WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
-USE transaction_keyspace;
-
-CREATE TABLE IF NOT EXISTS transactions (
-    transaction_id UUID PRIMARY KEY,
-    user_id UUID,
-    amount DECIMAL,
-    timestamp TIMESTAMP
-);
-```
-
-Utwórz wyzwalacz, który będzie monitorował dodawanie nowych transakcji do tabeli transactions i wykona określone akcje w zależności od warunków.
-
-
-```
-CREATE OR REPLACE TRIGGER transaction_trigger
-BEFORE INSERT ON transactions
-FOR EACH ROW
-BEGIN
-    -- Przykładowa akcja: Zapisanie informacji o transakcji do innego logu lub tabeli
-    INSERT INTO transaction_logs (transaction_id, user_id, amount, timestamp)
-    VALUES (NEW.transaction_id, NEW.user_id, NEW.amount, NEW.timestamp);
-END;
-```
-
-Dodaj kilka nowych transakcji do tabeli transactions.
-
-```
-INSERT INTO transactions (transaction_id, user_id, amount, timestamp) VALUES (uuid(), uuid(), 100.00, toTimestamp(now()));
-INSERT INTO transactions (transaction_id, user_id, amount, timestamp) VALUES (uuid(), uuid(), 50.00, toTimestamp(now()));
-```
-
-Sprawdź, czy wyzwalacz działa poprawnie, wyświetlając logi transakcji w tabeli transaction_logs.
-
-
-```SELECT * FROM transaction_logs;```
-
-Zmodyfikuj wyzwalacz, dodając warunki lub inne akcje, w zależności od potrzeb.
-
-```ALTER TRIGGER transaction_trigger
-ADD CONDITION IF ... THEN ...;
-```
-
-
 ### COPY
 
 Po uruchomieniu CQLSH, możesz użyć polecenia COPY do kopiowania danych między plikiem a tabelą w bazie danych Cassandra. Na przykład, aby skopiować dane z pliku CSV do tabeli, wpisz polecenie:
